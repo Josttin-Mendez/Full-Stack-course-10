@@ -1,0 +1,93 @@
+body {
+  text-align: center;
+  color: #000000e2;
+}
+
+h1 {
+  font-size: 58px;
+}
+
+h2 {
+  font-size: 32px;
+  color: #000000e2;
+}
+
+section {
+  margin: 50px 0 120px;
+}
+
+form {
+  margin: 40px auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 40%;
+  box-shadow: 0 0 5px 0px #abababae;
+  color: #000000ae;
+  font-family: system-ui, -apple-system;
+}
+
+label {
+  display: block;
+  transition: all ease-in;
+}
+
+input {
+  width: 250px;
+  height: 35px;
+  border: none;
+  border-bottom: 2px solid #000000e2;
+  outline: none;
+  text-align: center;
+}
+
+select {
+  height: 35px;
+  background-color: #f2f2f2;
+  border: none;
+  text-align: center;
+  outline: none;
+}
+
+a, button {
+  margin: 20px 0 40px;
+  padding: 12px 125px;
+  color: #ffffff;
+  background-color: #000000e2;
+  border: none;
+  border-radius: 5px;
+  font-family: system-ui, -apple-system;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover, button:hover{
+  background-color: #000000e2;
+}
+
+table {
+  margin: 40px;
+  border-collapse: collapse;
+}
+
+tr {
+  height: 40px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td, th {
+  border: 1px solid #dee2e6;
+  color: #000000ae;
+  padding: 20px;
+}
+
+td {
+  padding: 15px 30px;
+}

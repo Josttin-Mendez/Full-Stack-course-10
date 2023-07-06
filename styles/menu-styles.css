@@ -1,0 +1,33 @@
+body, div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+nav {
+  width: 60%;
+}
+
+ul {
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  margin: 50px 0;
+}
+
+p {
+  margin: 40px 0 30px;
+  color: #000000ae;
+  font-size: 17px;
+  border-bottom: 1px solid;
+}
